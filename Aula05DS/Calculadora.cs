@@ -23,9 +23,9 @@ namespace Aula05DS
             {
                 double num1, num2, res;
                 operadorLabel.Text = "a+b";
-                num1 = double.Parse(primeiroAlgarismo.Text);
+                num1 = double.Parse(primeiroAlgarismo.Text); 
                 num2 = double.Parse(segundoAlgarismo.Text);
-                res = num1 + num2;
+                res = num1 + num2; 
 
                 resultadoLabel.Text = res.ToString();
             }catch(FormatException)
