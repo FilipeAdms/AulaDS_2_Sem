@@ -209,6 +209,7 @@ namespace Aula05DS
                     string expressao = RespTemp.Text.Trim();
                     object resultado = calculo.Compute(expressao.Replace(",", "."), null);
                     Resposta.Text = resultado.ToString();
+                    Historico.Text += RespTemp.Text + "=" + Resposta.Text + Environment.NewLine;
                 }
                 catch (DivideByZeroException)
                 {

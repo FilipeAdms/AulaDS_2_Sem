@@ -47,9 +47,10 @@ namespace Aula05DS
             // 
             // somarBotao
             // 
-            this.somarBotao.Location = new System.Drawing.Point(338, 32);
+            this.somarBotao.Location = new System.Drawing.Point(225, 21);
+            this.somarBotao.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.somarBotao.Name = "somarBotao";
-            this.somarBotao.Size = new System.Drawing.Size(153, 36);
+            this.somarBotao.Size = new System.Drawing.Size(102, 23);
             this.somarBotao.TabIndex = 0;
             this.somarBotao.Text = "&Somar";
             this.somarBotao.UseVisualStyleBackColor = true;
@@ -57,9 +58,10 @@ namespace Aula05DS
             // 
             // subtrairBotao
             // 
-            this.subtrairBotao.Location = new System.Drawing.Point(338, 74);
+            this.subtrairBotao.Location = new System.Drawing.Point(225, 48);
+            this.subtrairBotao.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.subtrairBotao.Name = "subtrairBotao";
-            this.subtrairBotao.Size = new System.Drawing.Size(153, 36);
+            this.subtrairBotao.Size = new System.Drawing.Size(102, 23);
             this.subtrairBotao.TabIndex = 1;
             this.subtrairBotao.Text = "S&ubtrair";
             this.subtrairBotao.UseVisualStyleBackColor = true;
@@ -67,9 +69,10 @@ namespace Aula05DS
             // 
             // multiplicarBotao
             // 
-            this.multiplicarBotao.Location = new System.Drawing.Point(338, 116);
+            this.multiplicarBotao.Location = new System.Drawing.Point(225, 75);
+            this.multiplicarBotao.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.multiplicarBotao.Name = "multiplicarBotao";
-            this.multiplicarBotao.Size = new System.Drawing.Size(153, 36);
+            this.multiplicarBotao.Size = new System.Drawing.Size(102, 23);
             this.multiplicarBotao.TabIndex = 2;
             this.multiplicarBotao.Text = "&Multiplicar";
             this.multiplicarBotao.UseVisualStyleBackColor = true;
@@ -77,9 +80,10 @@ namespace Aula05DS
             // 
             // dividirBotao
             // 
-            this.dividirBotao.Location = new System.Drawing.Point(338, 158);
+            this.dividirBotao.Location = new System.Drawing.Point(225, 103);
+            this.dividirBotao.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dividirBotao.Name = "dividirBotao";
-            this.dividirBotao.Size = new System.Drawing.Size(153, 36);
+            this.dividirBotao.Size = new System.Drawing.Size(102, 23);
             this.dividirBotao.TabIndex = 3;
             this.dividirBotao.Text = "&Dividir";
             this.dividirBotao.UseVisualStyleBackColor = true;
@@ -88,48 +92,54 @@ namespace Aula05DS
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(54, 174);
+            this.label1.Location = new System.Drawing.Point(36, 113);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(234, 20);
+            this.label1.Size = new System.Drawing.Size(157, 13);
             this.label1.TabIndex = 4;
             this.label1.Text = "_________________________";
             // 
             // primeiroAlgarismo
             // 
-            this.primeiroAlgarismo.Location = new System.Drawing.Point(82, 51);
+            this.primeiroAlgarismo.Location = new System.Drawing.Point(55, 33);
+            this.primeiroAlgarismo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.primeiroAlgarismo.Name = "primeiroAlgarismo";
-            this.primeiroAlgarismo.Size = new System.Drawing.Size(176, 26);
+            this.primeiroAlgarismo.Size = new System.Drawing.Size(119, 20);
             this.primeiroAlgarismo.TabIndex = 5;
             this.primeiroAlgarismo.TextChanged += new System.EventHandler(this.primeiroAlgarismo_TextChanged);
             // 
             // segundoAlgarismo
             // 
-            this.segundoAlgarismo.Location = new System.Drawing.Point(82, 124);
+            this.segundoAlgarismo.Location = new System.Drawing.Point(55, 81);
+            this.segundoAlgarismo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.segundoAlgarismo.Name = "segundoAlgarismo";
-            this.segundoAlgarismo.Size = new System.Drawing.Size(176, 26);
+            this.segundoAlgarismo.Size = new System.Drawing.Size(119, 20);
             this.segundoAlgarismo.TabIndex = 6;
             // 
             // operadorLabel
             // 
-            this.operadorLabel.Location = new System.Drawing.Point(58, 90);
+            this.operadorLabel.Location = new System.Drawing.Point(39, 58);
+            this.operadorLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.operadorLabel.Name = "operadorLabel";
-            this.operadorLabel.Size = new System.Drawing.Size(217, 20);
+            this.operadorLabel.Size = new System.Drawing.Size(145, 13);
             this.operadorLabel.TabIndex = 7;
             this.operadorLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // resultadoLabel
             // 
-            this.resultadoLabel.Location = new System.Drawing.Point(3, 216);
+            this.resultadoLabel.Location = new System.Drawing.Point(2, 140);
+            this.resultadoLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.resultadoLabel.Name = "resultadoLabel";
-            this.resultadoLabel.Size = new System.Drawing.Size(329, 32);
+            this.resultadoLabel.Size = new System.Drawing.Size(219, 21);
             this.resultadoLabel.TabIndex = 8;
             this.resultadoLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // potenciaBotao
             // 
-            this.potenciaBotao.Location = new System.Drawing.Point(338, 200);
+            this.potenciaBotao.Location = new System.Drawing.Point(225, 130);
+            this.potenciaBotao.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.potenciaBotao.Name = "potenciaBotao";
-            this.potenciaBotao.Size = new System.Drawing.Size(153, 36);
+            this.potenciaBotao.Size = new System.Drawing.Size(102, 23);
             this.potenciaBotao.TabIndex = 9;
             this.potenciaBotao.Text = "&Potência";
             this.potenciaBotao.UseVisualStyleBackColor = true;
@@ -137,9 +147,10 @@ namespace Aula05DS
             // 
             // imparParBotao
             // 
-            this.imparParBotao.Location = new System.Drawing.Point(497, 32);
+            this.imparParBotao.Location = new System.Drawing.Point(331, 21);
+            this.imparParBotao.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.imparParBotao.Name = "imparParBotao";
-            this.imparParBotao.Size = new System.Drawing.Size(153, 36);
+            this.imparParBotao.Size = new System.Drawing.Size(102, 23);
             this.imparParBotao.TabIndex = 10;
             this.imparParBotao.Text = "&Impar e Par";
             this.imparParBotao.UseVisualStyleBackColor = true;
@@ -147,9 +158,10 @@ namespace Aula05DS
             // 
             // compararBotao
             // 
-            this.compararBotao.Location = new System.Drawing.Point(497, 74);
+            this.compararBotao.Location = new System.Drawing.Point(331, 48);
+            this.compararBotao.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.compararBotao.Name = "compararBotao";
-            this.compararBotao.Size = new System.Drawing.Size(153, 36);
+            this.compararBotao.Size = new System.Drawing.Size(102, 23);
             this.compararBotao.TabIndex = 11;
             this.compararBotao.Text = "&Comparar";
             this.compararBotao.UseVisualStyleBackColor = true;
@@ -157,9 +169,10 @@ namespace Aula05DS
             // 
             // limparBotao
             // 
-            this.limparBotao.Location = new System.Drawing.Point(497, 116);
+            this.limparBotao.Location = new System.Drawing.Point(331, 75);
+            this.limparBotao.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.limparBotao.Name = "limparBotao";
-            this.limparBotao.Size = new System.Drawing.Size(153, 36);
+            this.limparBotao.Size = new System.Drawing.Size(102, 23);
             this.limparBotao.TabIndex = 12;
             this.limparBotao.Text = "&Limpar";
             this.limparBotao.UseVisualStyleBackColor = true;
@@ -167,9 +180,10 @@ namespace Aula05DS
             // 
             // cancelar_Button
             // 
-            this.cancelar_Button.Location = new System.Drawing.Point(497, 158);
+            this.cancelar_Button.Location = new System.Drawing.Point(331, 103);
+            this.cancelar_Button.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cancelar_Button.Name = "cancelar_Button";
-            this.cancelar_Button.Size = new System.Drawing.Size(153, 36);
+            this.cancelar_Button.Size = new System.Drawing.Size(102, 23);
             this.cancelar_Button.TabIndex = 13;
             this.cancelar_Button.Text = "Cancelar";
             this.cancelar_Button.UseVisualStyleBackColor = true;
@@ -177,10 +191,10 @@ namespace Aula05DS
             // 
             // Calculadora
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.ClientSize = new System.Drawing.Size(829, 301);
+            this.ClientSize = new System.Drawing.Size(553, 196);
             this.Controls.Add(this.cancelar_Button);
             this.Controls.Add(this.limparBotao);
             this.Controls.Add(this.compararBotao);
@@ -195,8 +209,10 @@ namespace Aula05DS
             this.Controls.Add(this.multiplicarBotao);
             this.Controls.Add(this.subtrairBotao);
             this.Controls.Add(this.somarBotao);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Calculadora";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Calculadora_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

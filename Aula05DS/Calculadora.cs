@@ -190,5 +190,10 @@ namespace Aula05DS
         {
             Close();
         }
+
+        private void Calculadora_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
